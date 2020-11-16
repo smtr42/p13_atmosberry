@@ -39,8 +39,16 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     # Local
     "accounts.apps.AccountsConfig",
+    "api.apps.ApiConfig",
     # Third-party
+    "rest_framework",
 ]
+
+REST_FRAMEWORK = {
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.AllowAny",
+    ]
+}
 
 AUTH_USER_MODEL = "accounts.CustomUser"
 
