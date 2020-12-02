@@ -1,0 +1,13 @@
+.gradient {
+    background: linear-gradient(90deg, #1c13ba 0%, #00d4ff 100%);
+  }
+  html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #map {
+    /* configure the size of the map */
+    width: 100%;
+    height: 60%;
+  }
