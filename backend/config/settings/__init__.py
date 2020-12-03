@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # Local
     "accounts.apps.AccountsConfig",
     "api.apps.ApiConfig",
+    "page.PagesConfig",
     # Third-party
     "rest_framework",
 ]
